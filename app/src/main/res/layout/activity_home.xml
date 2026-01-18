@@ -18,24 +18,46 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp">
+                android:layout_height="197dp">
 
                 <ImageView
-                    android:id="@+id/headerImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:foreground="#80000000"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/shop" />
+                    android:id="@+id/headerimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/home_cover" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="arial"
+                    android:textSize="25sp"
+                    android:padding="20sp"
+                    android:textStyle="bold"
+                    android:text="@string/welcome_user"
+                    android:textColor="@color/white" />
 
                 <ImageView
-                    android:id="@+id/backButton"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_margin="16dp"
-                    android:padding="8dp"
-                    android:src="@drawable/ic_arrow_back"
+                    android:id="@+id/kebab"
+                    android:layout_width="33dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/kebab"
                     app:tint="@color/white" />
+
+                <!--Reserve Now Button-->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/reservenow"
+                    android:layout_width="331dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/dark_brown"
+                    android:text="@string/reserve_now"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="9dp" />
+
 
             </FrameLayout>
 
