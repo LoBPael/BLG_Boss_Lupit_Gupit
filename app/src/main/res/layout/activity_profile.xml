@@ -109,6 +109,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:id="@+id/email_text_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="user123@gmail.com"
@@ -130,6 +131,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:id="@+id/birth_date_text_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="1/2/34567"
@@ -152,6 +154,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:id="@+id/gender_text_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Male"
@@ -173,6 +176,7 @@
                             android:textSize="14sp" />
 
                         <TextView
+                            android:id="@+id/contact_number_text_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="09876543211"
@@ -186,6 +190,7 @@
 
 
                         <TextView
+                            android:id="@+id/edit_profile_button"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="end"
