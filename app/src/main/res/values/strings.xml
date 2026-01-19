@@ -3,4 +3,5 @@
     <string name="welcome_user">Welcome, User!</string>
     <string name="reserve_now">Reserve Now!</string>
     <string name="upcoming_reservations">Upcoming Reservations</string>
+    <string name="see_all">See All</string>
 </resources>
